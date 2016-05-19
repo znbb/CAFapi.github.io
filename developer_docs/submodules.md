@@ -26,11 +26,11 @@ To add a submodule using SourceTree first clone the documentation repository. En
 
 Select the `Repository` menu and select the `Add Submodule...` option.
 
-![Adding Submodules SourceTree](images/add_submodule_sourcetree_1.PNG)
+![Alt text](images/add_submodule_sourcetree_1.PNG)
 
 Next enter the `Source Path / URL` which will be the url of the repository you want to add, and enter the `Local Relative Path` which should be a sub folder in the `repositories` folder.
 
-![Adding Submodules SourceTree](images/add_submodule_sourcetree_2.PNG)
+![Alt text](images/add_submodule_sourcetree_2.PNG)
 
 Once the submodule has been added push the changes.
 
@@ -52,15 +52,15 @@ When a release is ready you may want to update the submodule so the documentatio
 
 Expand the submodule folder and double click on the submodule you want to update, eg:
 
-![Submodules SourceTree](images/submodules_sourcetree.PNG)
+![Alt text](images/submodules_sourcetree.PNG)
 
 Then pull any changes from master.
 
-![Submodules SourceTree](images/submodules_sourcetree_pull.PNG)
+![Alt text](images/submodules_sourcetree_pull.PNG)
 
 Switch back to the Documentation repository and changes to the submodule should show up under `Unstaged Files`.
 
-![Submodules SourceTree](images/submodules_sourcetree_unstaged.PNG)
+![Alt text](images/submodules_sourcetree_unstaged.PNG)
 
 Stage this change, commit and push. The submodule has then been updated.
 
