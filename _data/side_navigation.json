@@ -1,24 +1,28 @@
 {
-    "navigation_items": [{
+    "navigation_items": [
+    {
         "title": {
             "en-us": "Overview"
         },
         "icon": "hpe-cloud",
-        "children": [{
+        "children": [
+        {
             "title": {
                 "en-us": "What is CAF?"
             },
             "url": {
                 "en-us": "pages/en-us/what_is_caf"
             }
-        }, {
+        }, 
+        {
             "title": {
                 "en-us": "Architecture"
             },
             "url": {
                 "en-us": "pages/en-us/architecture"
             }
-        }, {
+        }, 
+        {
             "title": {
                 "en-us": "Features"
             },
@@ -36,9 +40,22 @@
             "title": {
                 "en-us": "Job Service"
             },
-            "url": {
-                "en-us": ""
-            }
+            "children": [
+            {
+                "title": {
+                    "en-us": "Information"
+                },
+                "url": {
+                    "en-us": "repositories/job-service/docs/en-us/information"
+                }
+            }, {
+                "title": {
+                    "en-us": "Getting Started"
+                },
+                "url": {
+                    "en-us": "repositories/job-service/docs/en-us/getting-started"
+                }        
+            }]
         }]
     }]
 }
