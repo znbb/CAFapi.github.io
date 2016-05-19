@@ -1,0 +1,41 @@
+{
+  "navigation_items": [
+    {
+      "title": {
+        "en-us": "Contribute",
+        "es": "Contribuir",
+        "fr": "Contribuer"
+      },
+      "url": {
+        "en-us": "",
+        "es": "",
+        "fr": ""
+      }
+    },
+    {
+      "title": {
+        "en-us": "Terms of Service",
+        "es": "Términos de servicio",
+        "fr": "Conditions d'utilisation"
+      },
+      "url": {
+        "en-us": "",
+        "es": "",
+        "fr": ""
+      }
+    },
+    {
+      "title": {
+        "en-us": "Releases",
+        "es": "Comunicados",
+        "fr": "De Presse"
+      },
+      "url": {
+        "en-us": "",
+        "es": "",
+        "fr": ""
+      }
+    }
+  ],
+  "feedback_url": "https://github.hpe.com/ashley-glenn-hunter/caf-jekyll/issues/new"
+}

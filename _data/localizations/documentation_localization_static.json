@@ -1,0 +1,212 @@
+{
+  "Accept": {
+    "en-us": "Accept",
+    "es": "Aceptar"
+  },
+  "Access Token": {
+    "en-us": "Access Token",
+    "es": "El acceso de emergencia"
+  },
+  "API Key": {
+    "en-us": "API Key",
+    "es": "API Key"
+  },
+  "API Key Authentication": {
+    "en-us": "API Key Authentication",
+    "es": "Autenticación de clave API"
+  },
+  "Authenticate": {
+    "en-us": "Authenticate",
+    "es": "Autenticar"
+  },
+  "Authorization URL": {
+    "en-us": "Authorization URL",
+    "es": "autorización de URL"
+  },
+  "Cancel": {
+    "en-us": "Cancel",
+    "es": "Cancelar"
+  },
+  "Close": {
+    "en-us": "Close",
+    "es": "Cerca"
+  },
+  "Code": {
+    "en-us": "Code",
+    "es": "Código"
+  },
+  "Choose A Region": {
+    "en-us": "Choose A Region",
+    "es": "Elija una zona geográfica"
+  },
+  "Contact information": {
+    "en-us": "Contact information",
+    "es": "Información del contacto"
+  },
+  "Content-Type": {
+    "en-us": "Content-Type",
+    "es": "Tipo de contenido"
+  },
+  "Contribute": {
+    "en-us": "Contribute",
+    "es": "Contribuir",
+    "fr": "Contribuer"
+  },
+  "Description": {
+    "en-us": "Description",
+    "es": "Descripción"
+  },
+  "Details": {
+    "en-us": "Details",
+    "es": "Detalles"
+  },
+  "Examples": {
+    "en-us": "Examples",
+    "es": "Ejemplos"
+  },
+  "false": {
+    "en-us": "false",
+    "es": "falso"
+  },
+  "Filter by tags": {
+    "en-us": "Filter by tags",
+    "es": "Filtrar por etiquetas"
+  },
+  "Flow": {
+    "en-us": "Flow",
+    "es": "Fluir"
+  },
+  "Header Preview": {
+    "en-us": "Header Preview",
+    "es": "Cabecera de vista previa"
+  },
+  "Headers": {
+    "en-us": "Headers",
+    "es": "Encabezados"
+  },
+  "HTTP Basic Authentication": {
+    "en-us": "HTTP Basic Authentication",
+    "es": "La autenticación básica HTTP"
+  },
+  "In": {
+    "en-us": "In",
+    "es": "En"
+  },
+  "License": {
+    "en-us": "License",
+    "es": "Licencia"
+  },
+  "Location": {
+    "en-us": "Location",
+    "es": "Ubicación"
+  },
+  "Models": {
+    "en-us": "Models",
+    "es": "Modelos"
+  },
+  "Name": {
+    "en-us": "Name",
+    "es": "Nombre"
+  },
+  "OAuth 2.0 Authentication": {
+    "en-us": "OAuth 2.0 Authentication",
+    "es": "La autenticación OAuth 2.0"
+  },
+  "Parameters": {
+    "en-us": "Parameters",
+    "es": "Parámetros"
+  },
+  "Parameters": {
+    "en-us": "Parameters",
+    "es": "Parámetros"
+  },
+  "Password": {
+    "en-us": "Password",
+    "es": "Contraseña"
+  },
+  "Paths": {
+    "en-us": "Paths",
+    "es": "Caminos"
+  },
+  "Please follow OAuth flow, copy access token from OAuth and paste it here.": {
+    "en-us": "Please follow OAuth flow, copy access token from OAuth and paste it here.",
+    "es": "Por favor, siga el flujo de OAuth , copiar token de acceso de OAuth y pegar aquí."
+  },
+  "Request": {
+    "en-us": "Request",
+    "es": "Solicitud"
+  },
+  "Required": {
+    "en-us": "Required",
+    "es": "Necesario"
+  },
+  "Responses": {
+    "en-us": "Responses",
+    "es": "Respuestas"
+  },
+  "Schema": {
+    "en-us": "Schema",
+    "es": "Esquema"
+  },
+  "Scheme": {
+    "en-us": "Scheme",
+    "es": "Esquema"
+  },
+  "Scopes": {
+    "en-us": "Scopes",
+    "es": "Scopes"
+  },
+  "Security": {
+    "en-us": "Security",
+    "es": "Seguridad"
+  },
+  "Security Schema": {
+    "en-us": "Security Schema",
+    "es": "Esquema de seguridad"
+  },
+  "Send Request": {
+    "en-us": "Send Request",
+    "es": "Enviar petición"
+  },
+  "Submit Feedback": {
+    "en-us": "Submit Feedback",
+    "es": "Enviar comentarios"
+  },
+  "Summary": {
+    "en-us": "Summary",
+    "es": "Resumen"
+  },
+  "Terms of service": {
+    "en-us": "Terms of service",
+    "es": "Términos de servicio"
+  },
+  "Terms of Service": {
+    "en-us": "Terms of Service",
+    "es": "Términos de servicio",
+    "fr": "Conditions d'utilisation"
+  },
+  "Token URL": {
+    "en-us": "Token URL",
+    "es": "URL del token"
+  },
+  "true": {
+    "en-us": "true",
+    "es": "cierto"
+  },
+  "Try this operation": {
+    "en-us": "Try this operation",
+    "es": "Pruebe esta operación"
+  },
+  "User Name": {
+    "en-us": "User Name",
+    "es": "Nombre de usuario"
+  },
+  "Version": {
+    "en-us": "Version",
+    "es": "Versión"
+  },
+  "Warning: Deprecated": {
+    "en-us": "Warning: Deprecated",
+    "es": "Advertencia: Desaprobados"
+  }
+}

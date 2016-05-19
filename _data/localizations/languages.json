@@ -1,0 +1,32 @@
+{
+    "en-us": {
+      "country": "United States",
+      "language": "English",
+      "continent": "North America"
+    },
+    "es": {
+      "country": "España",
+      "language": "Español",
+      "continent": "Europe"
+    },
+    "fr": {
+      "country": "France",
+      "language": "Français",
+      "continent": "Europe"
+    },
+    "ie": {
+      "country": "Ireland",
+      "language": "English",
+      "continent": "Europe"
+    },
+    "it": {
+      "country": "Italia",
+      "language": "Italiano",
+      "continent": "Europe"
+    },
+    "en-gb": {
+      "country": "United Kingdom",
+      "language": "English",
+      "continent": "Europe"
+    }
+}
