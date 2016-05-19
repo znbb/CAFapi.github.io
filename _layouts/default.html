@@ -16,6 +16,9 @@
       <div class="docs-content">
         {{ content }}
         <div class="footer">
+          {% if page.last_updated %}
+          <p class="pull-left text-muted m-nil">{{ page.last_updated }}</p>
+          {% endif %}
           <a class="pull-right" href="{{ site.data.footer_links.feedback_url }}"><span class="hpe-icon hpe-contact-us align-text-bottom"></span> <span localize-text="'Submit Feedback'"></span></a>
         </div>
       </div>

@@ -604,3 +604,27 @@
 th {
   font-family: Metric-Semibold;
 }
+
+.information-table {
+  margin-top: 30px;
+
+  tr {
+    min-height: 33px;
+  }
+
+  th, .information-header {
+    background-color: #F0F0F0;
+    color: #333;
+  }
+
+  th, td {
+    padding: 7px 10px;
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid #ddd;
+
+    p {
+      margin: 0;
+    }
+  }
+}

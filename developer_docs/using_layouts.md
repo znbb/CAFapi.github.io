@@ -78,6 +78,27 @@ The above YAML would result in the following:
 
 ---------------------------------------
 
+### Default Layout
+
+The `default` layout can be used for pages that contain content solely obtained from a markdown file. For example any pages that simply contain text, images, code samples etc.. should all use the default layout.
+
+To use the default layout add the following to the top of the markdown page:
+
+```yaml
+---
+layout: default
+title: Page Title Here
+last_updated: Created and last modified by John Smith on May 1, 2016
+---
+```
+The `title` attribute allow you to specify the page title, and the `last_updated` attribute (optional) allows you to identify when the page was created/last modified.
+
+An example of how a page using this layout might look:
+
+![Alt text](images/default_layout.PNG)
+
+---------------------------------------
+
 ### Swagger Layout
 
 The `swagger` layout can be used to present APIs in a user friendly way. Swagger definitions can be provided in either `YAML` or `JSON`. The swagger definition should follow the specification [found here](http://swagger.io/specification/).
