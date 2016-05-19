@@ -1,0 +1,3 @@
+[submodule "repositories/job-service"]
+	path = repositories/job-service
+	url = https://github.hpe.com/ashley-glenn-hunter/job-service.git
