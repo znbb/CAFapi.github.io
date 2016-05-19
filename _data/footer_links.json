@@ -2,40 +2,28 @@
   "navigation_items": [
     {
       "title": {
-        "en-us": "Contribute",
-        "es": "Contribuir",
-        "fr": "Contribuer"
+        "en-us": "Contribute"
       },
       "url": {
-        "en-us": "",
-        "es": "",
-        "fr": ""
+        "en-us": ""
       }
     },
     {
       "title": {
-        "en-us": "Terms of Service",
-        "es": "Términos de servicio",
-        "fr": "Conditions d'utilisation"
+        "en-us": "Terms of Service"
       },
       "url": {
-        "en-us": "",
-        "es": "",
-        "fr": ""
+        "en-us": ""
       }
     },
     {
       "title": {
-        "en-us": "Releases",
-        "es": "Comunicados",
-        "fr": "De Presse"
+        "en-us": "Releases"
       },
       "url": {
-        "en-us": "",
-        "es": "",
-        "fr": ""
+        "en-us": ""
       }
     }
   ],
-  "feedback_url": "https://github.hpe.com/ashley-glenn-hunter/caf-jekyll/issues/new"
+  "feedback_url": "https://github.hpe.com/ashley-glenn-hunter/caf-documentation/issues/new"
 }

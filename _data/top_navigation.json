@@ -1,79 +1,55 @@
 {
     "navigation_items": [{
         "title": {
-            "en-us": "Why CAF",
-            "es": "¿Por qué la CAF",
-            "fr": "Pourquoi CAF"
+            "en-us": "Why CAF"
         },
         "url": {
-            "en-us": "",
-            "es": "",
-            "fr": ""
+            "en-us": ""
         },
         "icon": "",
         "primary": false
     }, {
         "title": {
-            "en-us": "Install",
-            "es": "Instalar",
-            "fr": "Installer"
+            "en-us": "Install"
         },
         "url": {
-            "en-us": "",
-            "es": "",
-            "fr": ""
+            "en-us": ""
         },
         "icon": "",
         "primary": false
     }, {
         "title": {
-            "en-us": "Docs",
-            "es": "Documentos",
-            "fr": "Docs"
+            "en-us": "Docs"
         },
         "url": {
-            "en-us": "",
-            "es": "",
-            "fr": ""
+            "en-us": ""
         },
         "icon": "",
         "primary": false
     }, {
         "title": {
-            "en-us": "Community",
-            "es": "Comunidad",
-            "fr": "Communauté"
+            "en-us": "Community"
         },
         "url": {
-            "en-us": "",
-            "es": "",
-            "fr": ""
+            "en-us": ""
         },
         "icon": "",
         "primary": false
     }, {
         "title": {
-            "en-us": "GitHub",
-            "es": "GitHub",
-            "fr": "GitHub"
+            "en-us": "GitHub"
         },
         "url": {
-            "en-us": "https://github.hpe.com/caf",
-            "es": "https://github.hpe.com/caf",
-            "fr": "https://github.hpe.com/caf"
+            "en-us": "https://github.hpe.com/caf"
         },
         "icon": "assets/img/github-light.svg",
         "primary": false
     }, {
         "title": {
-            "en-us": "Getting Started",
-            "es": "Empezando",
-            "fr": "Commencer"
+            "en-us": "Getting Started"
         },
         "url": {
-            "en-us": "",
-            "es": "",
-            "fr": ""
+            "en-us": ""
         },
         "icon": "",
         "primary": true

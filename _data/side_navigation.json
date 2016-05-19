@@ -1,214 +1,142 @@
 {
     "navigation_items": [{
         "title": {
-            "en-us": "Overview",
-            "es": "Visión de conjunto",
-            "fr": "Aperçu"
+            "en-us": "Overview"
         },
         "icon": "hpe-cloud",
         "children": [{
             "title": {
-                "en-us": "What is CAF?",
-                "es": "¿Cuál es la CAF ?",
-                "fr": "Qu'est-ce que la CAF ?"
+                "en-us": "What is CAF?"
             },
             "url": {
-                "en-us": "pages/en-us/what_is_caf",
-                "es": "pages/es/what_is_caf",
-                "fr": "pages/fr/what_is_caf"
+                "en-us": "pages/en-us/what_is_caf"
             }
         }, {
             "title": {
-                "en-us": "Architecture",
-                "es": "Arquitectura",
-                "fr": "Architecture"
+                "en-us": "Architecture"
             },
             "url": {
-                "en-us": "pages/en-us/architecture",
-                "es": "pages/es/architecture",
-                "fr": "pages/fr/architecture"
+                "en-us": "pages/en-us/architecture"
             }
         }, {
             "title": {
-                "en-us": "Features",
-                "es": "Caracteristicas",
-                "fr": "Caractéristiques"
+                "en-us": "Features"
             },
             "url": {
-                "en-us": "pages/en-us/features",
-                "es": "pages/es/features",
-                "fr": "pages/fr/features"
+                "en-us": "pages/en-us/features"
             }
         }]
     }, {
         "title": {
-            "en-us": "Services",
-            "es": "Servicios",
-            "fr": "Prestations de Service"
+            "en-us": "Services"
         },
         "icon": "hpe-cluster",
         "children": [
         {
             "title": {
-                "en-us": "Audit",
-                "es": "Auditoría",
-                "fr": "Vérification"
+                "en-us": "Audit"
             },
             "children": [{
                 "title": {
-                    "en-us": "Overview",
-                    "es": "Visión de Conjunto",
-                    "fr": "Aperçu"
+                    "en-us": "Overview"
                 },
                 "url": {
-                    "en-us": "repositories/caf-audit/docs/en-us/overview",
-                    "es": "repositories/caf-audit/docs/es/overview",
-                    "fr": "repositories/caf-audit/docs/fr/overview"
+                    "en-us": "repositories/caf-audit/docs/en-us/overview"
                 }
               },
               {
                 "title": {
-                    "en-us": "Getting Started",
-                    "es": "Empezando",
-                    "fr": "Commencer"
+                    "en-us": "Getting Started"
                 },
                 "url": {
-                    "en-us": "repositories/caf-audit/docs/en-us/getting-started",
-                    "es": "repositories/caf-audit/docs/es/getting-started",
-                    "fr": "repositories/caf-audit/docs/fr/getting-started"
+                    "en-us": "repositories/caf-audit/docs/en-us/getting-started"
                 }
               },
               {
                 "title": {
-                    "en-us": "Configuration",
-                    "es": "Configuración",
-                    "fr": "Configuration"
+                    "en-us": "Configuration"
                 },
                 "url": {
-                    "en-us": "repositories/caf-audit/docs/en-us/configuration",
-                    "es": "repositories/caf-audit/docs/es/configuration",
-                    "fr": "repositories/caf-audit/docs/fr/configuration"
+                    "en-us": "repositories/caf-audit/docs/en-us/configuration"
                 }
               },
               {
                 "title": {
-                    "en-us": "API",
-                    "es": "API",
-                    "fr": "API"
+                    "en-us": "API"
                 },
                 "url": {
-                    "en-us": "repositories/caf-audit/docs/en-us/api",
-                    "es": "repositories/caf-audit/docs/es/api",
-                    "fr": "repositories/caf-audit/docs/fr/api"
+                    "en-us": "repositories/caf-audit/docs/en-us/api"
                 }
               }
             ]
         }, {
             "title": {
-                "en-us": "Classification",
-                "es": "Clasificación",
-                "fr": "Classement"
-            },  
+                "en-us": "Classification"
+            },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Data Processing",
-                "es": "Procesamiento de Datos",
-                "fr": "Traitement de l'information"
+                "en-us": "Data Processing"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "IDM",
-                "es": "IDM",
-                "fr": "IDM"
+                "en-us": "IDM"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Job Service",
-                "es": "Servicio de Empleo",
-                "fr": "Service d'emploi"
+                "en-us": "Job Service"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Policy",
-                "es": "Política",
-                "fr": "Politique"
+                "en-us": "Policy"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Search & Analytics",
-                "es": "Búsqueda y Análisis",
-                "fr": "Recherche & Analytics"
+                "en-us": "Search & Analytics"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Storage",
-                "es": "Almacenamiento",
-                "fr": "Stockage"
+                "en-us": "Storage"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }]
     }, {
         "title": {
-            "en-us": "Frameworks",
-            "es": "Marcos",
-            "fr": "Cadres"
+            "en-us": "Frameworks"
         },
         "icon": "hpe-system",
         "children": [{
             "title": {
-                "en-us": "Elements",
-                "es": "Elementos",
-                "fr": "Éléments"
+                "en-us": "Elements"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }, {
             "title": {
-                "en-us": "Worker Framework",
-                "es": "Marco Trabajador",
-                "fr": "Cadre de Travailleur"
+                "en-us": "Worker Framework"
             },
             "url": {
-                "en-us": "",
-                "es": "",
-                "fr": ""
+                "en-us": ""
             }
         }]
     }]

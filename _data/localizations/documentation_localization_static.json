@@ -1,212 +1,155 @@
 {
   "Accept": {
-    "en-us": "Accept",
-    "es": "Aceptar"
+    "en-us": "Accept"
   },
   "Access Token": {
-    "en-us": "Access Token",
-    "es": "El acceso de emergencia"
+    "en-us": "Access Token"
   },
   "API Key": {
-    "en-us": "API Key",
-    "es": "API Key"
+    "en-us": "API Key"
   },
   "API Key Authentication": {
-    "en-us": "API Key Authentication",
-    "es": "Autenticación de clave API"
+    "en-us": "API Key Authentication"
   },
   "Authenticate": {
-    "en-us": "Authenticate",
-    "es": "Autenticar"
+    "en-us": "Authenticate"
   },
   "Authorization URL": {
-    "en-us": "Authorization URL",
-    "es": "autorización de URL"
+    "en-us": "Authorization URL"
   },
   "Cancel": {
-    "en-us": "Cancel",
-    "es": "Cancelar"
+    "en-us": "Cancel"
   },
   "Close": {
-    "en-us": "Close",
-    "es": "Cerca"
+    "en-us": "Close"
   },
   "Code": {
-    "en-us": "Code",
-    "es": "Código"
+    "en-us": "Code"
   },
   "Choose A Region": {
-    "en-us": "Choose A Region",
-    "es": "Elija una zona geográfica"
+    "en-us": "Choose A Region"
   },
   "Contact information": {
-    "en-us": "Contact information",
-    "es": "Información del contacto"
+    "en-us": "Contact information"
   },
   "Content-Type": {
-    "en-us": "Content-Type",
-    "es": "Tipo de contenido"
+    "en-us": "Content-Type"
   },
   "Contribute": {
-    "en-us": "Contribute",
-    "es": "Contribuir",
-    "fr": "Contribuer"
+    "en-us": "Contribute"
   },
   "Description": {
-    "en-us": "Description",
-    "es": "Descripción"
+    "en-us": "Description"
   },
   "Details": {
-    "en-us": "Details",
-    "es": "Detalles"
+    "en-us": "Details"
   },
   "Examples": {
-    "en-us": "Examples",
-    "es": "Ejemplos"
+    "en-us": "Examples"
   },
   "false": {
-    "en-us": "false",
-    "es": "falso"
+    "en-us": "false"
   },
   "Filter by tags": {
-    "en-us": "Filter by tags",
-    "es": "Filtrar por etiquetas"
+    "en-us": "Filter by tags"
   },
   "Flow": {
-    "en-us": "Flow",
-    "es": "Fluir"
+    "en-us": "Flow"
   },
   "Header Preview": {
-    "en-us": "Header Preview",
-    "es": "Cabecera de vista previa"
+    "en-us": "Header Preview"
   },
   "Headers": {
-    "en-us": "Headers",
-    "es": "Encabezados"
+    "en-us": "Headers"
   },
   "HTTP Basic Authentication": {
-    "en-us": "HTTP Basic Authentication",
-    "es": "La autenticación básica HTTP"
+    "en-us": "HTTP Basic Authentication"
   },
   "In": {
-    "en-us": "In",
-    "es": "En"
+    "en-us": "In"
   },
   "License": {
-    "en-us": "License",
-    "es": "Licencia"
+    "en-us": "License"
   },
   "Location": {
-    "en-us": "Location",
-    "es": "Ubicación"
+    "en-us": "Location"
   },
   "Models": {
-    "en-us": "Models",
-    "es": "Modelos"
+    "en-us": "Models"
   },
   "Name": {
-    "en-us": "Name",
-    "es": "Nombre"
+    "en-us": "Name"
   },
   "OAuth 2.0 Authentication": {
-    "en-us": "OAuth 2.0 Authentication",
-    "es": "La autenticación OAuth 2.0"
+    "en-us": "OAuth 2.0 Authentication"
   },
   "Parameters": {
-    "en-us": "Parameters",
-    "es": "Parámetros"
-  },
-  "Parameters": {
-    "en-us": "Parameters",
-    "es": "Parámetros"
+    "en-us": "Parameters"
   },
   "Password": {
-    "en-us": "Password",
-    "es": "Contraseña"
+    "en-us": "Password"
   },
   "Paths": {
-    "en-us": "Paths",
-    "es": "Caminos"
+    "en-us": "Paths"
   },
   "Please follow OAuth flow, copy access token from OAuth and paste it here.": {
-    "en-us": "Please follow OAuth flow, copy access token from OAuth and paste it here.",
-    "es": "Por favor, siga el flujo de OAuth , copiar token de acceso de OAuth y pegar aquí."
+    "en-us": "Please follow OAuth flow, copy access token from OAuth and paste it here."
   },
   "Request": {
-    "en-us": "Request",
-    "es": "Solicitud"
+    "en-us": "Request"
   },
   "Required": {
-    "en-us": "Required",
-    "es": "Necesario"
+    "en-us": "Required"
   },
   "Responses": {
-    "en-us": "Responses",
-    "es": "Respuestas"
+    "en-us": "Responses"
   },
   "Schema": {
-    "en-us": "Schema",
-    "es": "Esquema"
+    "en-us": "Schema"
   },
   "Scheme": {
-    "en-us": "Scheme",
-    "es": "Esquema"
+    "en-us": "Scheme"
   },
   "Scopes": {
-    "en-us": "Scopes",
-    "es": "Scopes"
+    "en-us": "Scopes"
   },
   "Security": {
-    "en-us": "Security",
-    "es": "Seguridad"
+    "en-us": "Security"
   },
   "Security Schema": {
-    "en-us": "Security Schema",
-    "es": "Esquema de seguridad"
+    "en-us": "Security Schema"
   },
   "Send Request": {
-    "en-us": "Send Request",
-    "es": "Enviar petición"
+    "en-us": "Send Request"
   },
   "Submit Feedback": {
-    "en-us": "Submit Feedback",
-    "es": "Enviar comentarios"
+    "en-us": "Submit Feedback"
   },
   "Summary": {
-    "en-us": "Summary",
-    "es": "Resumen"
+    "en-us": "Summary"
   },
   "Terms of service": {
-    "en-us": "Terms of service",
-    "es": "Términos de servicio"
+    "en-us": "Terms of service"
   },
   "Terms of Service": {
-    "en-us": "Terms of Service",
-    "es": "Términos de servicio",
-    "fr": "Conditions d'utilisation"
+    "en-us": "Terms of Service"
   },
   "Token URL": {
-    "en-us": "Token URL",
-    "es": "URL del token"
+    "en-us": "Token URL"
   },
   "true": {
-    "en-us": "true",
-    "es": "cierto"
+    "en-us": "true"
   },
   "Try this operation": {
-    "en-us": "Try this operation",
-    "es": "Pruebe esta operación"
+    "en-us": "Try this operation"
   },
   "User Name": {
-    "en-us": "User Name",
-    "es": "Nombre de usuario"
+    "en-us": "User Name"
   },
   "Version": {
-    "en-us": "Version",
-    "es": "Versión"
+    "en-us": "Version"
   },
   "Warning: Deprecated": {
-    "en-us": "Warning: Deprecated",
-    "es": "Advertencia: Desaprobados"
+    "en-us": "Warning: Deprecated"
   }
 }
