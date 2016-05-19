@@ -1,6 +1,6 @@
 # CAF Documentation Site
 
-View the site here: https://pages.github.hpe.com/ashley-glenn-hunter/caf-jekyll
+View the site here: https://pages.github.hpe.com/ashley-glenn-hunter/caf-documentation
 
 Find useful links on how to begin writing documentation below:
 
