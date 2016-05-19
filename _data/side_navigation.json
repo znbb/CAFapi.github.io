@@ -37,17 +37,17 @@
             },
             "children": [{
                 "title": {
-                    "en-us": "Information"
-                },
-                "url": {
-                    "en-us": "repositories/job-service/docs/en-us/information"
-                }
-            }, {
-                "title": {
                     "en-us": "Getting Started"
                 },
                 "url": {
                     "en-us": "repositories/job-service/docs/en-us/getting-started"
+                }
+            }, {
+                "title": {
+                    "en-us": "Information"
+                },
+                "url": {
+                    "en-us": "repositories/job-service/docs/en-us/information"
                 }
             }]
         }]
