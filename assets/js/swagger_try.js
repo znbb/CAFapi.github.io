@@ -666,6 +666,7 @@
                 $scope.operation = $parse(attrs.operation)($scope);
                 $scope.specs = $parse(attrs.schema)($scope);
                 $scope.pathName = $parse(attrs.pathName)($scope);
+                $scope.operationName = $parse(attrs.operationName)($scope);
 
                 $scope.isTryOpen = false;
                 $scope.toggleTry = function toggleTry() {
@@ -795,6 +796,7 @@
         $scope.requestModel = makeRequestModel();
         $scope.requestSchema = makeRequestSchema();
         $scope.hasFileParam = hasFileParam();
+        $scope.contentType = $scope.requestModel.contentType;
 
         // httpProtocol is static for now we can use HTTP2 later if we wanted
         $scope.httpProtocol = 'HTTP/1.1';
@@ -1586,7 +1588,10 @@
                 $scope.textStatus = textStatus;
                 $scope.xhr = jqXHR;
 
-                if (errorThrown) {
+                if(textStatus === 'parsererror') {
+        					$scope.textStatus = 'NOCONTENT';
+        				}
+                else if (errorThrown) {
                     $scope.error = errorThrown;
                 } else if (textStatus === 'error') {
                     $scope.error = 'Server not found or an error occurred';
