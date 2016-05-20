@@ -100,4 +100,4 @@ There are several branches in the Git repository that each have a different purp
 - `gh-pages` - This branch contains the public version of the documentation site. Changing the contents of this branch will change the live version of the documentation site.
 
 **Important Note**: When pushing to the `gh-pages` branch you must update the `_config.yml` file.  
-By default the `baseurl` property is set to `/jekyll-caf`, however as this branch contains the live site the baseurl should be changed to `https://pages.github.hpe.com/ashley-glenn-hunter/caf-jekyll`.
+By default the `baseurl` property is set to `/caf-documentation`, however as this branch contains the live site the baseurl should be changed to `https://pages.github.hpe.com/ashley-glenn-hunter/caf-jekyll`.
