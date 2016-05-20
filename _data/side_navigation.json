@@ -37,23 +37,23 @@
             },
             "children": [{
                 "title": {
-                    "en-us": "API"
+                    "en-us": "Information"
                 },
                 "url": {
-                    "en-us": "repositories/job-service/docs/en-us/api"
+                    "en-us": "repositories/job-service/docs/en-us/information"
                 }
-            },{
-                "title": {
-                    "en-us": "Architecture"
-                },
-                "url": {
-                    "en-us": "repositories/job-service/docs/en-us/architecture"
-                }
-            },{
+            }, {
                 "title": {
                     "en-us": "Getting Started"
                 },
                 "children": [{
+                    "title": {
+                        "en-us": "Prerequisites"
+                    },
+                    "url": {
+                        "en-us": "repositories/job-service/docs/en-us/getting-started/prerequisites"
+                    }
+                }, {
                     "title": {
                         "en-us": "Job Tracking Worker"
                     },
@@ -67,20 +67,20 @@
                     "url": {
                         "en-us": "repositories/job-service/docs/en-us/getting-started/marathon-properties"
                     }
-                }, {
-                    "title": {
-                        "en-us": "Prerequisites"
-                    },
-                    "url": {
-                        "en-us": "repositories/job-service/docs/en-us/getting-started/prerequisites"
-                    }
                 }]
             }, {
                 "title": {
-                    "en-us": "Information"
+                    "en-us": "Architecture"
                 },
                 "url": {
-                    "en-us": "repositories/job-service/docs/en-us/information"
+                    "en-us": "repositories/job-service/docs/en-us/architecture"
+                }
+            }, {
+                "title": {
+                    "en-us": "API"
+                },
+                "url": {
+                    "en-us": "repositories/job-service/docs/en-us/api"
                 }
             }, {
                 "title": {
