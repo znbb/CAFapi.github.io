@@ -468,6 +468,7 @@ layout: default
 
     <h3 ng-if="xhr" localize-text="'Response'"></h3>
     <div class="response" ng-if="xhr">
+      <p ng-show="statusCode"><b localize-text="'Response code:'"></b> <span>{{ statusCode }}</span></p>
       <div class="response-info" ng-class="{error: error}">
         <span class="status-text">{{textStatus | uppercase}}</span>
         <span class="error-text" ng-if="error">{{error}}</span>

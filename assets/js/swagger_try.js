@@ -1586,6 +1586,7 @@
             .fail(function(jqXHR, textStatus, errorThrown) {
                 $scope.xhrInProgress = false;
                 $scope.textStatus = textStatus;
+                $scope.statusCode = jqXHR.status;
                 $scope.xhr = jqXHR;
 
                 if(textStatus === 'parsererror') {
@@ -1602,6 +1603,7 @@
 
             .done(function(data, textStatus, jqXHR) {
                 $scope.textStatus = textStatus;
+                $scope.statusCode = jqXHR.status;
                 $scope.xhrInProgress = false;
                 $scope.responseData = data;
                 $scope.xhr = jqXHR;

@@ -37,6 +37,13 @@
             },
             "children": [{
                 "title": {
+                    "en-us": "API"
+                },
+                "url": {
+                    "en-us": "repositories/job-service/docs/en-us/api"
+                }
+            },{
+                "title": {
                     "en-us": "Architecture"
                 },
                 "url": {
@@ -58,7 +65,7 @@
                         "en-us": "Marathon Properties"
                     },
                     "url": {
-                        "en-us": "repositories/job-service/docs/en-us/getting-started/marathon-properties"    
+                        "en-us": "repositories/job-service/docs/en-us/getting-started/marathon-properties"
                     }
                 }, {
                     "title": {
