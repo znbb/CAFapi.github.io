@@ -12,8 +12,16 @@
                         <span localize-all="secondlevel"></span><span class="hpe-icon hpe-up arrow"></span>
                     </a>
                     <ul class="nav nav-third-level" ng-if="secondlevel.children">
-                        <li class="m-b-xs" ng-repeat="(key, thirdlevel) in secondlevel.children">
-                            <a class="nav-item" localize-all="thirdlevel"></a>
+                        <li class="m-b-xs" ng-repeat="(key, thirdlevel) in secondlevel.children" ng-class="{'nav-section': thirdlevel.children}">
+                            <a class="nav-item" localize-all="thirdlevel" ng-if="thirdlevel.url"></a>
+                            <a ng-if="thirdlevel.children">
+                                <span localize-all="thirdlevel"></span><span class="hpe-icon hpe-up arrow"></span>
+                            </a>
+                            <ul class="nav nav-fourth-level" ng-if="thirdlevel.children">
+                                <li class="m-b-xs" ng-repeat="(key, fourthlevel) in thirdlevel.children">
+                                    <a class="nav-item" localize-all="fourthlevel" ng-if="fourthlevel.url"></a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
