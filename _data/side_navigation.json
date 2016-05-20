@@ -46,9 +46,28 @@
                 "title": {
                     "en-us": "Getting Started"
                 },
-                "url": {
-                    "en-us": "repositories/job-service/docs/en-us/getting-started"
-                }
+                "children": [{
+                    "title": {
+                        "en-us": "Job Tracking Worker"
+                    },
+                    "url": {
+                        "en-us": "repositories/job-service/docs/en-us/getting-started/job-tracking-worker"
+                    }
+                }, {
+                    "title": {
+                        "en-us": "Marathon Properties"
+                    },
+                    "url": {
+                        "en-us": "repositories/job-service/docs/en-us/getting-started/marathon-properties"    
+                    }
+                }, {
+                    "title": {
+                        "en-us": "Prerequisites"
+                    },
+                    "url": {
+                        "en-us": "repositories/job-service/docs/en-us/getting-started/prerequisites"
+                    }
+                }]
             }, {
                 "title": {
                     "en-us": "Information"
