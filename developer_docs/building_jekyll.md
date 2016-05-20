@@ -66,8 +66,8 @@ Make a folder that will contain the Jekyll project, open the `Command Prompt` (o
 
 Next we need to clone the Git repository. Type the following commands:
 
-    git clone https://github.hpe.com/ashley-glenn-hunter/caf-jekyll.git
-    cd caf-jekyll
+    git clone https://github.hpe.com/ashley-glenn-hunter/caf-documentation.git
+    cd caf-documentation
 
 Next we need to install all the dependencies that the Jekyll project requires. This can be done automatically using Bundler which we installed earlier. To begin the installation type the following command:
 
@@ -89,7 +89,7 @@ This will perform an initial build, but will also watch for any changes to any f
 
 This command will also host the project on a local web server which can be accessed by going to the following URL:
 
-    http://localhost:4000/jekyll-caf/
+    http://localhost:4000/caf-documentation/
 
 ## Publishing changes to the Jekyll project
 
@@ -100,4 +100,4 @@ There are several branches in the Git repository that each have a different purp
 - `gh-pages` - This branch contains the public version of the documentation site. Changing the contents of this branch will change the live version of the documentation site.
 
 **Important Note**: When pushing to the `gh-pages` branch you must update the `_config.yml` file.  
-By default the `baseurl` property is set to `/caf-documentation`, however as this branch contains the live site the baseurl should be changed to `https://pages.github.hpe.com/ashley-glenn-hunter/caf-jekyll`.
+By default the `baseurl` property is set to `/caf-documentation`, however as this branch contains the live site the baseurl should be changed to `https://pages.github.hpe.com/ashley-glenn-hunter/caf-documentation`.
