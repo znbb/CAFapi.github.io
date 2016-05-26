@@ -10,8 +10,8 @@ title: Common Application Framework
 email: caf@hpe.com
 description: > # this means to ignore newlines until "baseurl:"
   HPE Big Data Common Application Framework
-baseurl: "/caf-documentation" # the subpath of your site, e.g. /blog
-url: "https://github.hpe.com/caf" # the base hostname & protocol for your site
+baseurl: "http://cafapi.github.io" # the subpath of your site, e.g. /blog
+url: "http://cafapi.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
