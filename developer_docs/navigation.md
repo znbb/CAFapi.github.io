@@ -191,7 +191,7 @@ An example of the `footer_links.json` layout can be seen below:
     },
     ...
     ],
-    "feedback_url": "https://github.hpe.com/caf/caf-documentation/issues/new"
+    "feedback_url": "https://github.com/CAFapi/CAFapi.github.io/issues/new"
 }
 ```
 
