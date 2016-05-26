@@ -1,6 +1,6 @@
 # CAF Documentation Site
 
-View the site here: https://pages.github.hpe.com/caf/caf-documentation/
+View the site here: http://cafapi.github.io/
 
 Find useful links on how to begin writing documentation below:
 
