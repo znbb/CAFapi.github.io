@@ -66,7 +66,7 @@ Make a folder that will contain the Jekyll project, open the `Command Prompt` (o
 
 Next we need to clone the Git repository. Type the following commands:
 
-    git clone https://github.hpe.com/ashley-glenn-hunter/caf-documentation.git
+    git clone https://github.hpe.com/caf/caf-documentation.git
     cd caf-documentation
 
 Next we need to install all the dependencies that the Jekyll project requires. This can be done automatically using Bundler which we installed earlier. To begin the installation type the following command:
