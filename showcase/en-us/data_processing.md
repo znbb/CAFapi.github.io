@@ -1,3 +1,5 @@
+## Data Processing
+
 The Data Processing service provides advanced processing functions to allow machines to interrogate and analyze a wide range of file formats.
 With such a wide range of data sources, including email, voice and image, data analytics can be a challenging problem. The Data Processing
 service allows you to create bespoke data processing pipelines, which perform any of the following data processing actions based on the file
@@ -13,3 +15,7 @@ type and metadata:
 - OCR extracts text from images for further data processing actions.
 - Speech extracts text from audio for further data processing actions.
 - Text Extract extracts text, metadata and sub files from a wide range of file types.
+
+<br>
+
+> Open Source Status: This service is currently in the process of being approved for open sourcing.

@@ -5,6 +5,24 @@
     "services": [
         {
             "en-us": "showcase/en-us/data_processing.md"
+        },
+        {
+            "en-us": "showcase/en-us/elements.md"
+        },
+        {
+            "en-us": "showcase/en-us/identity_management.md"
+        },
+        {
+            "en-us": "showcase/en-us/worker_framework.md"
+        },
+        {
+            "en-us": "showcase/en-us/job_service.md"
+        },
+        {
+            "en-us": "showcase/en-us/auto_scaler.md"
+        },
+        {
+            "en-us": "showcase/en-us/marathon_loader.md"
         }
     ]
 }

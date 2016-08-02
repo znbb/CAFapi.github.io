@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body ng-app="caf" class="splash-page" prevent-animation>
+<body class="splash-page">
 
   <div class="splash-header">
       <div class="caf-brand">
@@ -23,12 +23,12 @@
       </div>
       <hr>
 
-      <h1 class="text-center text-black">Services</h1>
+      <!--<h1 class="text-center text-black m-t-lg m-b-lg">Services</h1>-->
 
       {% for section in site.data.showcase.services %}
       
       <div class="row m-b-xl">
-          <div class="col-md-12">
+          <div class="col-md-12 showcase-service">
             {% capture markdown-include %}{% include_relative {{ section.en-us }} %}{% endcapture %}
             {{ markdown-include | markdownify }}
           </div>
@@ -37,9 +37,6 @@
       {% endfor %}
 
   </div>
-
-  <hr>
-
 
   <div class="splash-footer">
       <p>{{ page.footer }}</p>
