@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Common Application Framework - Common Application Framework &lt;br&gt;&lt;small&gt;from the Big Data group at Hewlett Packard Enterprise&lt;/small&gt;</title>
+  <meta name="description" content="HPE Big Data Common Application Framework
+">
+
+  <link rel='shortcut icon' href='/cafapi/favicon.ico' type='image/x-icon'/>
+  <link rel="stylesheet" href="/cafapi/css/main.css">
+  <link rel="stylesheet" href="/cafapi/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/cafapi/assets/css/HPEElements.min.css">
+  <link rel="canonical" href="http://localhost:4000//cafapi/">
+</head>
+
+
+<body class="splash-page">
+
+  <div class="splash-header">
+      <div class="caf-brand">
+          <img class="logo" src="assets/img/caflogo.png" alt="">
+          <h2 class="title">Common Application Framework <br><small>from the Big Data group at Hewlett Packard Enterprise</small></h2>
+          <h3 class="slogan">The Microservices based solution to your Big Data Analytics problems the <br>Common Application Framework accelerates time to value.</h3>
+      </div>
+  </div>
+
+  <div class="container m-t-xl m-b-xl">
+
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-header">
+            
+            <h1 id="the-hpe-common-application-framework">The HPE Common Application Framework</h1>
+
+<p>The HPE Common Application Framework is a collection of microservices essential for any developer of big data appplications. We are the
+recognized leaders in deliverying enterprise applications that manage unstructured information and we designed these services to form the core
+of our next generation archiving, back-up, content management, and analytics products. We’re committed to open-sourcing all of these services
+to more rapidly fuel innovation in the community as well as to provide standards with regards to the management of unstructured information at
+scale.</p>
+
+<p>Each microservice is wrapped in a Docker container for light-weight portability and rapid deployment. They can be deployed stand-alone or with
+fault-tolerant queues running on Apache Mesos with Marathon for massive scalability and high availability. These services are designed for Saas
+deployment and are fully multi-tenant aware.</p>
+
+<p>Below we’ve summarized each microservice with links to the source code repository and documentation. For those services not yet opensourced,
+they are available within the HPE Github enterprise instance.</p>
+
+          </div>
+      </div>
+      <hr>
+
+      <!--<h1 class="text-center text-black m-t-lg m-b-lg">Services</h1>-->
+
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="data-processing">Data Processing</h2>
+
+<p>The Data Processing service provides advanced processing functions to allow machines to interrogate and analyze a wide range of file formats.
+With such a wide range of data sources, including email, voice and image, data analytics can be a challenging problem. The Data Processing
+service allows you to create bespoke data processing pipelines, which perform any of the following data processing actions based on the file
+type and metadata:</p>
+
+<ul>
+  <li>Language Detection determines the languages present in a section of text.</li>
+  <li>Boilerplate Removal removes commonly used text such as legal disclaimers.</li>
+  <li>Classification uses natural language processing to classify data into user-defined categories.</li>
+  <li>Email Signature Detection automatically identifies and segregates signature sections from emails.</li>
+  <li>Email Key Content Segregation separates the top reply of email from previous replies.</li>
+  <li>Numeric ID Tagging applies a unique identifier to files processed by the Data Processing service for tracking purposes.</li>
+  <li>Entity Extraction constructs structured data, such as addresses, from unstructured text.</li>
+  <li>OCR extracts text from images for further data processing actions.</li>
+  <li>Speech extracts text from audio for further data processing actions.</li>
+  <li>Text Extract extracts text, metadata and sub files from a wide range of file types.</li>
+</ul>
+
+<p><br /></p>
+
+<blockquote>
+  <p>Open Source Status: This service is currently in the process of being approved for open sourcing.</p>
+</blockquote>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="elements---user-experience">Elements - User Experience</h2>
+
+<p>Elements is the only open source user interface framework for building modern, responsive, mobile big data applications on the web. Elements
+provides all of the essentials required for your big data project, allowing you to swiftly create dashboards and reports that provide users with the
+insights they crave from their big data applications. Elements is based on best-of-breed, open source technologies, including AngularJS,
+Bootstrap and D3. It is easy to include in your web applications with the Bower web package manager.</p>
+
+<p>Source Code (https://github.hpe.com/caf/elements) / Documentation (https://pages.github.hpe.com/caf/elements/documentation.html)</p>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="identity-management">Identity Management</h2>
+
+<p>The Identity Management service provides authentication and authorization of end users as well as other, related micro-services. The Identity
+Management service implements authentication and authorization of end users as well as other, related micro-services. Authentication uses the
+industry standard OAUTH 2Ŀ0 protocol with encrypted tokens of varying life spans. For user management, Identity Management supports
+enterprise hierarchy and AD/LDAP for customer hierarchy. Any number of applications can register their roles and permissions with the service.
+Application administrators can assign application-specific roles and permissions to users. Leveraging this service relieves you of having to create
+these core building blocks of any SaaS application on your own.</p>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="worker-framework">Worker Framework</h2>
+
+<p>The Worker Framework is a set of building blocks for asynchronous, distributed, data-processing microservices known as workers. This
+framework is designed for high scalability and fault tolerance, and is easily extensible. The Worker Framework provides a foundation for crossplatform,
+cloud-ready, distributed data-processing microservices (workers). The framework is designed for massive scalability, redundancy,
+elasticity and resilience, which are achieved through architectural choices and technologies like Docker, Apache Mesos, Marathon and queuebased
+messaging with RabbitMQ. You can extend this framework through integration with many external and internal components, such as
+storage services. The Worker Framework is a good fit for any data-processing scenario, including both on-premise and cloud-based solutions
+delivered as SaaS. For example, the Worker Framework could benefit solutions for content processing, mathematical and statistical analysis, and
+image and audio processing. The Worker Framework is written entirely in Java and features the necessary infrastructure for execution of
+workers, messaging with fault-tolerant queues, monitoring, scaling, error handling and external data exchange. It also includes a set of base
+classes and interfaces allowing rapid development and integration.</p>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="job-service">Job Service</h2>
+
+<p>The Job service provides an extensible framework for the distributed processing of batch workloads using an elastically scaled pool of workers
+built using the worker framework. The Job service’s extensible design allows you to define a batch of work and provide a batch processor plugin
+that interprets a batch, splitting it into smaller batches or individual items of work upon which the service can act. The process of batch splitting
+is scaled elastically using the autoscaler, allowing sub-batches of a larger batch to be processed in parallel. The individual items of work emerge
+and go into the RabbitMQ queue, which is defined in the job and processed by workers. The workers also scale elastically based on the load.</p>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="auto-scaler">Auto Scaler</h2>
+
+<p>The Autoscaler service provides on-demand scaling of services, allowing you to efficiently dedicate resources where they are needed most in
+your Mesos cluster, and minimizing costs and ensuring user satisfaction. The Autoscaler is an extensible framework, which allows you to provide
+your own modules to retrieve services to scale, metrics to make scaling decisions and instigate a scaling action. The Autoscaler service provides 
+a source for Marathon that identifies services to scale using Marathon labels. A RabbitMQ workload analyzer retrieves details of RabbitMQ
+queues to make scaling decisions. A Marathon application scaler issues commands to the Marathon REST API to scale up and down a service.</p>
+
+          </div>
+      </div>
+      <hr>
+      
+      
+      <div class="row m-b-xl">
+          <div class="col-md-12 showcase-service">
+            
+            <h2 id="marathon-loader">Marathon Loader</h2>
+
+<p>The Marathon Loader is a Java application that automates the process of deploying Marathon applications. You create a directory structure of
+applications and Marathon templates using $ placeholders to allow values to be modified for different environments. Create various Java or
+JSON property files to map placeholders to values and then use the loader to send the fully-formed applications to Marathon. The Marathon
+Loader can also be used to create environment-specific configuration files that are supplied to the Mesos sandboxes of applications.</p>
+
+          </div>
+      </div>
+      <hr>
+      
+
+  </div>
+
+  <div class="splash-footer">
+      <p></p>
+  </div>
+
+    <script type="text/javascript">
+      (function() {
+
+        var landingBackground = document.getElementsByClassName('splash-header')[0];
+        
+          landingBackground.style.backgroundImage = 'url(assets/img/landing_4.jpg)';
+        
+
+      })();
+    </script>
+
+
+  </body>
+
+</html>
