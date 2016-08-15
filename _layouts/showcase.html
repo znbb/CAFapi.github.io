@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %} 
+
+{% raw %}
+<body ng-app="cafapi" ng-controller="MainCtrl as vm">
+
+  <header class="banner">
+    <h1 class="title" localize-text="product_title"></h1>
+    <h4 class="subtitle" localize-text="product_subtitle"></h4>
+    <h3 class="slogan" localize-text="product_slogan"></h1>
+  </header>
+
+  <section class="container introduction">
+    <div class="row">
+      <div class="col-md-12" ng-bind-html="::vm.introduction"></div>
+    </div>
+  </section>
+
+  <section ng-repeat="service in ::vm.services" class="service" ng-class="service.color">
+    <div class="container">
+      <div class="row">
+
+        <!-- If there is no image allow text to fill the screen -->
+        <div ng-if="::!service.image" class="col-md-12">
+          <h1 ng-bind="::service.title"></h1>
+          <div ng-bind-html="::service.content"></div>
+        </div>
+
+        <!-- If there is an image show in two columns -->
+        <div ng-if="::service.image" class="col-md-12 two-column">
+          <h1 ng-bind="::service.title"></h1>
+
+          <div class="content" ng-class="vm.imageSide()">
+            <div class="image">
+              <img ng-src="{{ ::service.image }}" />
+            </div>
+            <div class="text" ng-bind-html="::service.content"></div>            
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+{% endraw %}
+
+  <div class="splash-footer">
+    <p>{{ page.footer }}</p>
+  </div>
+
+  <script type="text/json" id="showcase_json">
+    {{ site.data.showcase | jsonify }}
+  </script>
+
+  <script type="text/json" id="localization_json">
+    {{ site.data.localization | jsonify }}
+  </script>
+
+  {% include footer.html %} 
+
+</body>
+
+</html>

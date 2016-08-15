@@ -1,0 +1,23 @@
+{
+  "name": "caf-api",
+  "version": "1.0.0",
+  "description": "CAF API Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAFapi/CAFapi.github.io.git"
+  },
+  "keywords": [
+    "caf",
+    "api"
+  ],
+  "author": "Hewlett Packard Enterprise",
+  "homepage": "http://cafapi.github.io",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-templates": "^1.0.4",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jekyll": "^0.4.4"
+  }
+}

@@ -1,0 +1,82 @@
+{
+    "introduction": {
+        "en-us": "showcase/en-us/introduction.md"
+    },
+    "services": [
+        {
+            "en-us": {
+                "title": "Data Processing",
+                "content": "showcase/en-us/services/data_processing.md",
+                "color": "purple" 
+            }
+        },
+        {
+            "en-us": {
+                "title": "Elements - User Experience",                
+                "content": "showcase/en-us/services/elements.md",
+                "color": "white",
+                "image": "assets/img/elements-image.png"
+            }
+        },
+        {
+            "en-us": {
+                "title": "Storage Service",                
+                "content": "showcase/en-us/services/storage.md",
+                "color": "bronze" 
+            }
+        },
+        {
+            "en-us": {
+                "title": "Analytics", 
+                "content": "showcase/en-us/services/analytics.md",
+                "color": "white",
+                "image": "assets/img/analytics.jpg"
+            }
+        },
+        {
+            "en-us": {
+                "title": "Identity Management", 
+                "content": "showcase/en-us/services/identity_management.md",
+                "color": "steel" 
+            }
+        },
+        {
+            "en-us": {
+                "title": "Auditing", 
+                "content": "showcase/en-us/services/auditing.md",
+                "color": "white",
+                "image": "assets/img/audit.png"
+            }
+        },
+        {
+            "en-us": {
+                "title": "Worker Framework", 
+                "content": "showcase/en-us/services/worker_framework.md",
+                "color": "purple" 
+            }
+        },
+        {
+            "en-us": {
+                "title": "Job Service", 
+                "content": "showcase/en-us/services/job_service.md",
+                "color": "white" ,
+                "image": "assets/img/job-service.png"
+            }
+        },
+        {
+            "en-us": {
+                "title": "Auto Scaler", 
+                "content": "showcase/en-us/services/auto_scaler.md",
+                "color": "bronze" 
+            }
+        },
+        {
+            "en-us": {
+                "title": "Marathon Loader", 
+                "content": "showcase/en-us/services/marathon_loader.md",
+                "color": "white",
+                "image": "assets/img/marathon-loader.png"
+            }
+        }
+    ]
+}
