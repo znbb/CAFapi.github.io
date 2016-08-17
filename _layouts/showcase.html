@@ -26,6 +26,10 @@
         <div ng-if="::!service.image" class="col-md-12">
           <h1 ng-bind="::service.title"></h1>
           <div ng-bind-html="::service.content"></div>
+          <div class="link-button-container">
+            <a class="link-button" ng-if="::service.site_button" ng-href="{{ ::service.site_button.url }}" ng-bind="::service.site_button.text"></a>
+            <a class="link-button" ng-if="::service.repository_button" ng-href="{{ ::service.repository_button.url }}" ng-bind="::service.repository_button.text"></a>
+          </div>
         </div>
 
         <!-- If there is an image show in two columns -->
@@ -36,7 +40,13 @@
             <div class="image">
               <img ng-src="{{ ::service.image }}" />
             </div>
-            <div class="text" ng-bind-html="::service.content"></div>            
+            <div class="text">
+              <div ng-bind-html="::service.content"></div>
+              <div class="link-button-container">
+                <a class="link-button" ng-if="::service.site_button" ng-href="{{ ::service.site_button.url }}" ng-bind="::service.site_button.text"></a>
+                <a class="link-button" ng-if="::service.repository_button" ng-href="{{ ::service.repository_button.url }}" ng-bind="::service.repository_button.text"></a>
+              </div>
+            </div>            
           </div>
 
         </div>

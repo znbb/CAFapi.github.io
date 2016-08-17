@@ -15,7 +15,15 @@
                 "title": "Elements - User Experience",                
                 "content": "showcase/en-us/services/elements.md",
                 "color": "white",
-                "image": "assets/img/elements-image.png"
+                "image": "assets/img/elements-image.png",
+                "site_button": {
+                    "text": "Elements Site",
+                    "url": "https://pages.github.hpe.com/caf/elements/documentation.html"
+                },
+                "repository_button": {
+                    "text": "Elements on GitHub",
+                    "url": "https://github.hpe.com/caf/elements"
+                }
             }
         },
         {
