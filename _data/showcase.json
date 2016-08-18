@@ -76,7 +76,15 @@
                 "title": "Job Service", 
                 "content": "showcase/en-us/services/job_service.md",
                 "color": "white" ,
-                "image": "assets/img/job-service.png"
+                "image": "assets/img/job-service.png",
+                "site_button": {
+                    "text": "Job Service Site",
+                    "url": "https://pages.github.hpe.com/caf/job-service/index.html"
+                },
+                "repository_button": {
+                    "text": "Job Service on GitHub",
+                    "url": "https://github.hpe.com/caf/job-service"
+                }
             }
         },
         {
