@@ -53,7 +53,15 @@
                 "title": "Auditing", 
                 "content": "showcase/en-us/services/auditing.md",
                 "color": "white",
-                "image": "assets/img/audit.png"
+                "image": "assets/img/audit.png",
+                "site_button": {
+                    "text": "Auditing Site",
+                    "url": "https://pages.github.hpe.com/caf/caf-audit"
+                },
+                "repository_button": {
+                    "text": "Auditing on GitHub",
+                    "url": "https://github.hpe.com/caf/caf-audit"
+                }
             }
         },
         {
