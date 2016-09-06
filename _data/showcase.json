@@ -30,7 +30,15 @@
             "en-us": {
                 "title": "Storage Service",                
                 "content": "showcase/en-us/services/storage.md",
-                "color": "bronze" 
+                "color": "bronze",
+		"site_button": {
+                    "text": "Storage Service Site",
+                    "url": "https://pages.github.hpe.com/caf/storage-services"
+                },
+                "repository_button": {
+                    "text": "Storage Services on GitHub",
+                    "url": "https://github.hpe.com/caf/storage-services"
+                }
             }
         },
         {
