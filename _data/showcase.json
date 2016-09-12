@@ -18,7 +18,7 @@
                 "image": "assets/img/elements-image.png",
                 "site_button": {
                     "text": "Elements Site",
-                    "url": "https://pages.github.hpe.com/caf/elements/documentation.html"
+                    "url": "https://pages.github.hpe.com/caf/elements"
                 },
                 "repository_button": {
                     "text": "Elements on GitHub",
