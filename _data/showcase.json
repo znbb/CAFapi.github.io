@@ -118,6 +118,22 @@
                 "color": "white",
                 "image": "assets/img/marathon-loader.png"
             }
+        },
+        {
+            "en-us": {
+                "title": "Imaging", 
+                "content": "showcase/en-us/services/imaging.md",
+                "color": "white",
+                "image": "assets/img/imaging.png",
+                "site_button": {
+                    "text": "Imaging Service Site",
+                    "url": "https://pages.github.hpe.com/caf/imaging/index.html"
+                },
+                "repository_button": {
+                    "text": "Imaging Service on GitHub",
+                    "url": "https://github.hpe.com/caf/imaging"
+                }
+            }
         }
     ]
 }
