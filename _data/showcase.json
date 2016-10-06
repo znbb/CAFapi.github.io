@@ -7,7 +7,15 @@
             "en-us": {
                 "title": "Data Processing",
                 "content": "showcase/en-us/services/data_processing.md",
-                "color": "purple" 
+                "color": "purple",
+                "site_button": {
+                    "text": "Data Processing Site",
+                    "url": "https://pages.github.hpe.com/caf/elements"
+                },
+                "repository_button": {
+                    "text": "Data Processing on GitHub",
+                    "url": "https://github.hpe.com/caf/elements"
+                }
             }
         },
         {
