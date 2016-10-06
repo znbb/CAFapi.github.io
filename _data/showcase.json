@@ -10,11 +10,11 @@
                 "color": "purple",
                 "site_button": {
                     "text": "Data Processing Site",
-                    "url": "https://pages.github.hpe.com/caf/elements"
+                    "url": "https://pages.github.hpe.com/caf/data-processing-service"
                 },
                 "repository_button": {
                     "text": "Data Processing on GitHub",
-                    "url": "https://github.hpe.com/caf/elements"
+                    "url": "https://github.hpe.com/caf/data-processing-service"
                 }
             }
         },
