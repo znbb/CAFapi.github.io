@@ -117,6 +117,14 @@ angular.module('cafapi.templates', []).run(['$templateCache', function($template
   );
 
 
+  $templateCache.put('showcase/en-us/services/imaging.md',
+    "The Imaging service provides the ability to convert between HTML and searchable PDF, as well as between PDF and JPEG, PNG, TIFF and other common image formats. In addition to format conversion, the Imaging service supports document mark-up with redactions and endorsements. Redactions can permanently remove sensitive content from documents while endorsements can add text annotations to documents.\r" +
+    "\n" +
+    "\r" +
+    "\n"
+  );
+
+
   $templateCache.put('showcase/en-us/services/job_service.md',
     "The Job service provides an extensible framework for the distributed processing of batch workloads using an elastically scaled pool of workers\r" +
     "\n" +
@@ -143,23 +151,21 @@ angular.module('cafapi.templates', []).run(['$templateCache', function($template
 
 
   $templateCache.put('showcase/en-us/services/storage.md',
-    "The Storage service allows for the secure upload and download of assets in a multi-tenant environment. The Storage service provides a REST\r" +
-    "\n" +
-    "API for storing, retrieving, and browsing of assets. It is capable of scaling to petabytes of data, and offers block level single instance storage\r" +
+    "The Storage service allows for the secure upload and download of assets in a multi-tenant environment. It provides a REST API for the storing, retrieving, and browsing of assets. The Storage service scales to petabytes of data, and offers block-level, single-instance storage\r" +
     "\n" +
     "(deduplication) on a per-tenant basis. \r" +
     "\n" +
     "\r" +
     "\n" +
-    "Upload and download APIs provide advanced capabilities such as the ability to resume, send/retrieve\r" +
+    "Upload and download APIs provide advanced capabilities, such as the ability to resume, and send/retrieve\r" +
     "\n" +
-    "blocks in any order, as well as send/retrieve blocks in parallel per asset. The service provides WORM capabilities on a per asset basis, allowing\r" +
+    "blocks in any order, as well as send/retrieve blocks in parallel per asset. The service provides WORM capabilities on a per-asset basis, allowing\r" +
     "\n" +
     "you to define a period of time for which the asset cannot be modified and is guaranteed to be returned exactly as it was uploaded. \r" +
     "\n" +
     "\r" +
     "\n" +
-    "The Storage service utilizes the Identity Management service for authentication, as well as authorization so that only users with appropriate roles and\r" +
+    "The Storage service utilizes the Identity Management service for authentication, as well as authorization, so that only users with appropriate roles and\r" +
     "\n" +
     "permissions can access stored assets. The Storage service also utilizes the Auditing service, providing a record of user actions at the API level.\r" +
     "\n"
