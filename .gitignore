@@ -6,3 +6,4 @@ Gemfile.lock
 .project
 .gitignore
 .settings
+node_modules
