@@ -54,7 +54,15 @@
                 "title": "Analytics", 
                 "content": "showcase/en-us/services/analytics.md",
                 "color": "white",
-                "image": "assets/img/analytics.jpg"
+                "image": "assets/img/analytics.jpg",
+		"site_button": {
+                    "text": "Analytics Site",
+                    "url": "https://pages.github.hpe.com/caf/search-and-analytics"
+                },
+                "repository_button": {
+                    "text": "Analytics on GitHub",
+                    "url": "https://github.hpe.com/caf/search-and-analytics"
+               }
             }
         },
         {
