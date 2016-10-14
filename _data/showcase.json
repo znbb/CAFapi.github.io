@@ -101,7 +101,15 @@
             "en-us": {
                 "title": "Worker Framework", 
                 "content": "showcase/en-us/services/worker_framework.md",
-                "color": "purple" 
+                "color": "purple",
+                "site_button": {
+                    "text": "Worker Framework Site",
+                    "url": "https://pages.github.hpe.com/caf/worker-framework"
+                },
+                "repository_button": {
+                    "text": "Worker Framework on GitHub",
+                    "url": "https://github.hpe.com/caf/worker-framework"
+                } 
             }
         },
         {
