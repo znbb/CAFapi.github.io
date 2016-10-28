@@ -1,0 +1,1 @@
+The Application Resources service provides a RESTful API to create and manage application metadata.  The service uses entities and associations to store metadata in a hierarchical and non-hierarchical manner. The API is designed to be used in a  SaaS environment and is built to be multi-tenant aware.
