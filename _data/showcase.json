@@ -147,7 +147,15 @@
             "en-us": {
                 "title": "Auto Scaler", 
                 "content": "showcase/en-us/services/auto_scaler.md",
-                "color": "bronze" 
+                "color": "bronze",
+                "site_button": {
+                    "text": "Auto Scaler Site",
+                    "url": "https://pages.github.hpe.com/caf/autoscale-container/index.html"
+                },
+                "repository_button": {
+                    "text": "Auto Scaler on GitHub",
+                    "url": "https://github.hpe.com/caf/autoscale-container"
+                }
             }
         },
         {
