@@ -11,7 +11,7 @@ email: caf@hpe.com
 description: > # this means to ignore newlines until "baseurl:"
   HPE Big Data Common Application Framework
 url: "http://localhost:4000/" # the base hostname & protocol for your site
-baseurl: "http://cafapi.github.io"
+baseurl: "https://znbb.github.io/CAFapi.github.io"
 
 # Build settings
 markdown: kramdown
